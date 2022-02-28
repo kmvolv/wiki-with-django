@@ -1,0 +1,10 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    {{title}} not found!
+{% endblock %}
+
+{% block body %}
+    <h1> Uh oh! Looks like {{title}} was not found in the database!</h1>
+    <p> Would you like to create a new entry for {{title}}? </p>
+{% endblock %}
